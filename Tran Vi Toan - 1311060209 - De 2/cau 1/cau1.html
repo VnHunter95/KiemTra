@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>Cau 1</title>
+<style type="text/css">
+.myclass {color: red;}
+</style>
+</head>
+
+<body>
+	<h1>cau 1</h1>
+	<div style = "background-color:yellow" id = "changeColorDiv">
+	<p>TEXT</p>
+	<button type="submit" onclick="changeColor()">Click Me!</button>
+	
+	</div>
+	</hr>
+	
+	<h1>cau 2</h1>
+	<div id="cau2">
+		<h1 onclick="cau2()">Add Solution</h1>
+		<p>First Paragraph</p>
+		<p>Second Paragraph</p>
+	</div>
+	
+	<h1>cau 3</h1>
+	<form id="inputForm" onSubmit="return cau3()">
+		Some number</br><input type="text" id="inputNumber1"/>
+		<p id = "error1" size="12" color="red"></p>
+		Some number</br><input type="text" id="inputNumber2"/>
+		<p id = "error2"></p>
+		Some number</br><input type="text" id="inputNumber3"/>
+		<p id = "error3"></p>
+		<input type="submit" value="Submit"/>
+	</form>
+	
+	<h1>cau 4</h1>
+	<table border="1" id="TABLE">
+		<tr>
+			<td>Option</td>
+			<td>Value</td>
+			<td>commit</td>
+		<tr>
+	</table>
+	 <select id="option">
+	<option value="email">Email</option>
+	<option value="name">Name</option>
+	</select>
+	<input type="text" id="input1"/>
+	<input type="text" id="input2"/>
+	</br>
+	<button text="Add" onClick="cau4()">Add</button>
+	
+	<script src="cau1.js"></script>
+	
+</body>
+
+</html>

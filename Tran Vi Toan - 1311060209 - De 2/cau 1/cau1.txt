@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>Cau 1</title>
+</head>
+
+<body>
+	<div style = "background-color:yellow" id = "changeColorDiv">
+	<p>TEXT</p>
+	<button type="submit">Click Me!</button>
+	
+	</div>
+</body>
+
+</html>
